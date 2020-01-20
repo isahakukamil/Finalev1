@@ -1,0 +1,89 @@
+
+####################################################################
+##--This script is meant to automate the check compliance level---##
+##--with regards to the MTN security baseline compliance as well--##
+##--as set security configurations where necessary. This script---##
+##--displays a timestamp at the beginning of every operation to---##
+##--give an idea as to where backups and logs as and when there---##
+##--is the need for a rollback. Actions of the script are logged--##
+##--for the purpose of tracing errors asssociated with scripts.---##
+####################################################################
+
+Please enter the number corresponding to the node you would like
+to run scripts on(1-9). NB:You can Enter 0 to exit the nodes list
+
+1. SDP
+
+2. OCC
+
+3. AIR
+
+4. EMM
+
+5. ECMS
+
+6. NG-VS
+
+7. CCN
+
+8. EMA/EDA
+
+9. NG-CRS
+
+0. Exit
+
+
+The following scripts show the various security baselines compliance configurations on SDP. 
+Please Enter the number between 1-29 associated with the appropriate script to run or enter 
+29 to run all the scripts corresponding to the MBSS compliance list required by MTN
+You can enter 0 to exit the scripts for SDP
+
+1. Restrict Root Access on SDP node
+2. Disallow root access via FTP on SDP node
+3. Set Account Lockout Threshold for invalid logon attempts on SDP node
+4. Restrict mounting of NFS shares on SDP node
+5. Restrict concurrent unauthenticated user access from different terminals on SDP node
+6. Use of SSH key based authentication on SDP node
+7. Remove or disable inactive users on SDP node
+8. set Password restriction, Complexity and Expiry on SDP node
+9. Disable insecure and unused services on SDP node
+10. Configure SSH Session Timeout on SDP node
+11. Disable Anonymous FTP login on SDP node
+12. Set X11 Protocol Forwarding on SDP node
+13. Enable Stack protection against buffer overflows on SDP node
+14. Disable/Remove CGI scripts on SDP node
+15. Create and enable warning banners on SDP node
+16. Disable Trace/Track in apache HTTPD on SDP node
+17. Disable SSL weak cipher(using RC4) in apache on SDP node
+18. Disable SSl Weak Protocols on SDP node
+19. Upgrade a supported version of apache HTTP server on SDP node
+20. Disable SSH Weak CBC Mode Ciphers on SDP node
+21. Configure remote syslog from UNIX server on SDP node
+22. Logging of user activities on OS level on SDP node
+23. Restrict access of audit logs on SDP node
+24. Provide screenshot for security control validation on SDP node
+25. Configure the host based firewall on SDP node
+26. SMTP and web server version shall not be disclosed on SDP node
+27. Change Default System Account Password
+28. Enable Audit Logging on SDP node
+29. Disable/Configure Weak SNMP Community String
+30. Run All Scripts on SDP node
+0.  Exit 
+
+##############################################################################################################################
+# Please Enter the number corresponding with the checklist to execute scripts or enter 30 to run all scripts on the SDP node #
+# ----------------------------------------You can equally enter 0 to exit from SDP scripts.----------------------------------#
+##############################################################################################################################
+
+2
+
+#######################################################
+##-Script to Disable Root Access via FTP on IN nodes-##
+##---Name:Issahaku Kamil | UserID : EKAMISS----------##
+#######################################################
+
+
+Note the Date-Time-Stamp in case of a rollback:2020-01-19_08-22-27
+
+
+Would you like to disable root login via FTP? yes/no

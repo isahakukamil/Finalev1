@@ -1,0 +1,44 @@
+
+####################################################################
+##--This script is meant to automate the check compliance level---##
+##--with regards to the MTN security baseline compliance as well--##
+##--as set security configurations where necessary. This script---##
+##--displays a timestamp at the beginning of every operation to---##
+##--give an idea as to where backups and logs as and when there---##
+##--is the need for a rollback. Actions of the script are logged--##
+##--for the purpose of tracing errors asssociated with scripts.---##
+####################################################################
+
+Please enter the number corresponding to the node you would like
+to run scripts on(1-9). NB:You can Enter 0 to exit the nodes list
+
+1. SDP
+
+2. OCC
+
+3. AIR
+
+4. EMM
+
+5. ECMS
+
+6. NG-VS
+
+7. CCN
+
+8. EMA/EDA
+
+9. NG-CRS
+
+0. Exit
+
+
+Wrong Character!, Kindly Enter a value ranging from 1-9 or 0 to exit the nodes script menu
+
+
+Do you want to perform another operation? yes/no
+
+Wrong input!,Kindly enter Either yes/no to continue
+
+Do you want to perform another operation? yes/no
+
